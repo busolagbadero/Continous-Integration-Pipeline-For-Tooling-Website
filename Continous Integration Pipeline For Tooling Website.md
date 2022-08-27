@@ -72,11 +72,11 @@ Checked the artifacts  stored on Jenkins server locally 'sudo ls /var/lib/jenkin
 
 Installed "Publish Over SSH" plugin on Jenkins
 
-On Dashboard I selected "Manage Jenkins" and chose "Configure System" menu item and then Scrolled down to Publish over SSH plugin configuration section and configured it to be able to connect to  NFS server
+On Dashboard I selected "Manage Jenkins" and chose "Configure System" from the menu item and then Scrolled down to " Publish over SSH " plugin configuration section and configured it to be able to connect to  NFS server by :
 
-Provided a private key , Arbitrary name , Hostname ,Username and Remote directory 
+Providing a private key , Arbitrary name , Hostname ,Username and Remote directory 
 
-Opened  Jenkins job configuration page and added another one in "Post-build Action" and selected from the drop menu " send build artifacts over ssh " .  
+Opened  Jenkins job configuration page and clicked on  "Post-build Action" and selected from the drop menu " send build artifacts over ssh " .  
 
 Under the 'transfer set ' i chose to  copy all files and directories – i used **  to copy all and then saved it.
 
